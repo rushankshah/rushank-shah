@@ -15,7 +15,7 @@ export default function Footer() {
                 <Row className='mt-3' style={{ textAlign: 'center', color: 'black' }}>
                     <Col>
                     </Col>
-                    <Col md='8'>
+                    <Col md='6'>
                         <Row>
                             <Col md='3'>
                                 <div>

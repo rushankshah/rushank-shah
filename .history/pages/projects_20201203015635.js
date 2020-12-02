@@ -81,12 +81,11 @@ const projects = () => {
                                 </CardTitle>
                                 <CardSubtitle tag="h6" className="mb-2 text-muted">A real-time chat application with video calling and image sharing (both camera and gallery) functionalities. Made using agora RTC and Firebase. It has some more minor features like login and logout features, emoji support, etc.</CardSubtitle>
                                 <Row className='mt-5'>
+                                    <Col></Col>
                                     <Col md='6'>
                                         <a className='btn btn-outline-info' target='_blank' href='https://www.linkedin.com/feed/update/urn:li:activity:6686195640520728576/'>Project</a>
                                     </Col>
-                                    <Col md='6'>
-                                        <a className='btn btn-outline-info' target='_blank' href='https://github.com/rushankshah/U-Connect'>Repository</a>
-                                    </Col>
+                                    <Col></Col>
                                 </Row>
                             </CardBody>
                         </Card>
@@ -104,78 +103,13 @@ const projects = () => {
                                     <Col md='6'>
                                         <a className='btn btn-outline-info' target='_blank' href='https://www.linkedin.com/feed/update/urn:li:activity:6676519220106321920/'>Project</a>
                                     </Col>
+                                    <a className='btn btn-outline-info' target='_blank' href='https://github.com/rushankshah/ARFlutter'>Repository</a>
                                     <Col md='6'>
-                                        <a className='btn btn-outline-info' target='_blank' href='https://github.com/rushankshah/ARFlutter'>Repository</a>
                                     </Col>
                                 </Row>
                             </CardBody>
                         </Card>
                     </Col>
-                    <Col md='4'>
-                        <Card className='intro custom-card'>
-                            <CardImg top src="/static/images/Realtime-Detection.png" style={{ borderRadius: '50px 50px 0px 0px' }} alt="Card image cap"></CardImg>
-                            <hr></hr>
-                            <CardBody>
-                                <CardTitle tag='h3'>
-                                    Realtime Object Detection
-                                </CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-muted">A flutter app made with Tensorflow Lite plugin for object detection. This app can detect different objects and also shows a probability of it's claim</CardSubtitle>
-                                <Row className='mt-5'>
-                                    <Col md='6'>
-                                        <a className='btn btn-outline-info' target='_blank' href='https://www.linkedin.com/posts/rushankshah-65836b1a6_machinelearning-flutter-activity-6696047824955551744-udEl'>Project</a>
-                                    </Col>
-                                    <Col md='6'>
-                                        <a className='btn btn-outline-info' target='_blank' href='https://github.com/rushankshah/Realtime-Object-Detection'>Repository</a>
-                                    </Col>
-                                </Row>
-                            </CardBody>
-                        </Card>
-                    </Col>
-                </Row>
-                <Row className='mt-5'>
-                    <Col>
-                    </Col>
-                    <Col md='4'>
-                        <Card className='intro custom-card'>
-                            <CardImg top src="/static/images/Inventory-Management-System.png" style={{ borderRadius: '50px 50px 0px 0px' }} alt="Card image cap"></CardImg>
-                            <hr></hr>
-                            <CardBody>
-                                <CardTitle tag='h3'>
-                                    Inventory Management System
-                                </CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-muted">This project was made for an Iron and steel company for managing their stocks. The project was made using ReactJS and Materialize-CSS. It used firebase as it's backend service</CardSubtitle>
-                                <Row className='mt-5'>
-                                    <Col md='6'>
-                                        <a className='btn btn-outline-info' target='_blank' href='https://inventory-management-sys-c24d8.web.app'>Project</a>
-                                    </Col>
-                                    <Col md='6'>
-                                        <a className='btn btn-outline-info' target='_blank' href='https://github.com/rushankshah/Inventory-Management-System'>Repository</a>
-                                    </Col>
-                                </Row>
-                            </CardBody>
-                        </Card>
-                    </Col>
-                    <Col md='4'>
-                        <Card className='intro custom-card'>
-                            <CardImg top src="/static/images/Find-Origin.png" style={{ borderRadius: '50px 50px 0px 0px' }} alt="Card image cap"></CardImg>
-                            <hr></hr>
-                            <CardBody>
-                                <CardTitle tag='h3'>
-                                    Find Origin
-                                </CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-muted">During times like these when apps are being banned people are trying to find alternatives to them. This completely offline app is a collection of about 150 apps and 25 categories. As soon as you tap on any alternative it will directly redirect you to the play store.</CardSubtitle>
-                                <Row className='mt-5'>
-                                    <Col md='6'>
-                                        <a className='btn btn-outline-info' target='_blank' href='https://www.linkedin.com/posts/rushankshah-65836b1a6_flutterapp-activity-6687569531293982720-jA9J'>Project</a>
-                                    </Col>
-                                    <Col md='6'>
-                                        <a className='btn btn-outline-info' target='_blank' href='https://github.com/rushankshah/Find-Origin'>Repository</a>
-                                    </Col>
-                                </Row>
-                            </CardBody>
-                        </Card>
-                    </Col>
-                    <Col></Col>
                 </Row>
                 <hr></hr>
             </BasePage>

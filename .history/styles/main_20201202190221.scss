@@ -3,7 +3,6 @@
 @import './header';
 @import './shared/colors';
 @import 'about';
-@import 'projects';
 
 html, body {
     height:100%;
@@ -36,14 +35,6 @@ html, body {
       margin-bottom: 20px;
     }
   }
-}
-
-.here{
-  color: white;
-}
-
-.here:hover{
-  color: #dba919;
 }
 
 .social-media:hover{

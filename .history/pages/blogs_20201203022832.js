@@ -1,6 +1,5 @@
 import BaseLayout from '../components/layouts/BaseLayout'
 import BasePage from '../components/BasePage'
-import { Card, CardBody, CardImg, CardSubtitle, CardText, CardTitle, Col, Row } from 'reactstrap'
 
 
 const blogs = () => {
@@ -10,9 +9,8 @@ const blogs = () => {
                 <h1 style={{ textAlign: 'center', color: 'black' }}>Blogs</h1>
                 <Row className='mt-5'>
                     <Col md='12'>
-                        <Card className='intro' style={{ borderRadius: '20px' }}>
+                        <Card className='intro' style={{ borderRadius: '20px', backgroundColor: 'beige' }}>
                             <CardBody>
-                                <CardImg top src="/static/images/flutter.png" alt="Card image cap"></CardImg>
                                 <CardTitle tag='h3'>
                                     How to install, setup and run your first Flutter application on Android Studio
                                 </CardTitle>

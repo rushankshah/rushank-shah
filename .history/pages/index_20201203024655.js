@@ -81,8 +81,8 @@ export default function Home() {
                 className='self-typed'
               />
               <div className="hero-welcome-bio">
-                <h1 style={{textAlign: 'center'}}>
-                  Happy to have you on board.<br></br> You can read more about me <Link href='/about'><a style={{textDecoration: 'none'}} className='here'><i>here</i></a></Link>.
+                <h1>
+                  Happy to have you on board. You can read more about me <Link href='/about'><a>here</a></Link>.
                 </h1>
               </div>
             </Col>

@@ -2,7 +2,6 @@ import BaseLayout from '../components/layouts/BaseLayout'
 import { Row, Col, Container } from 'reactstrap'
 import Typed from 'react-typed'
 import { useEffect, useState } from 'react'
-import Link from 'next/link'
 
 export default function Home() {
 
@@ -81,8 +80,8 @@ export default function Home() {
                 className='self-typed'
               />
               <div className="hero-welcome-bio">
-                <h1 style={{textAlign: 'center'}}>
-                  Happy to have you on board.<br></br> You can read more about me <Link href='/about'><a style={{textDecoration: 'none'}} className='here'><i>here</i></a></Link>.
+                <h1>
+                  Let's take a look at some of my work
                 </h1>
               </div>
             </Col>

@@ -156,24 +156,6 @@ const projects = () => {
                         </Card>
                     </Col>
                     <Col md='4'>
-                        <Card className='intro custom-card'>
-                            <CardImg top src="/static/images/Find-Origin.png" style={{ borderRadius: '50px 50px 0px 0px' }} alt="Card image cap"></CardImg>
-                            <hr></hr>
-                            <CardBody>
-                                <CardTitle tag='h3'>
-                                    Find Origin
-                                </CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-muted">During times like these when apps are being banned people are trying to find alternatives to them. This completely offline app is a collection of about 150 apps and 25 categories. As soon as you tap on any alternative it will directly redirect you to the play store.</CardSubtitle>
-                                <Row className='mt-5'>
-                                    <Col md='6'>
-                                        <a className='btn btn-outline-info' target='_blank' href='https://www.linkedin.com/posts/rushankshah-65836b1a6_flutterapp-activity-6687569531293982720-jA9J'>Project</a>
-                                    </Col>
-                                    <Col md='6'>
-                                        <a className='btn btn-outline-info' target='_blank' href='https://github.com/rushankshah/Find-Origin'>Repository</a>
-                                    </Col>
-                                </Row>
-                            </CardBody>
-                        </Card>
                     </Col>
                     <Col></Col>
                 </Row>

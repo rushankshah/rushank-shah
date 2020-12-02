@@ -12,7 +12,7 @@ const blogs = () => {
                     <Col md='12'>
                         <Card className='intro' style={{ borderRadius: '20px' }}>
                             <CardBody>
-                                <CardImg top src="/static/images/flutter.png" alt="Card image cap"></CardImg>
+                                <CardImg top src="/static/images/virtual-labs-logo.png" alt="Card image cap"></CardImg>
                                 <CardTitle tag='h3'>
                                     How to install, setup and run your first Flutter application on Android Studio
                                 </CardTitle>

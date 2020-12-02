@@ -157,11 +157,11 @@ const projects = () => {
                     </Col>
                     <Col md='4'>
                         <Card className='intro custom-card'>
-                            <CardImg top src="/static/images/Find-Origin.png" style={{ borderRadius: '50px 50px 0px 0px' }} alt="Card image cap"></CardImg>
+                            <CardImg top src="/static/images/Inventory-Management-System.png" style={{ borderRadius: '50px 50px 0px 0px' }} alt="Card image cap"></CardImg>
                             <hr></hr>
                             <CardBody>
                                 <CardTitle tag='h3'>
-                                    Find Origin
+                                    U-Connect
                                 </CardTitle>
                                 <CardSubtitle tag="h6" className="mb-2 text-muted">During times like these when apps are being banned people are trying to find alternatives to them. This completely offline app is a collection of about 150 apps and 25 categories. As soon as you tap on any alternative it will directly redirect you to the play store.</CardSubtitle>
                                 <Row className='mt-5'>
