@@ -1,65 +1,94 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import BaseLayout from '../components/layouts/BaseLayout'
+import { Row, Col, Container } from 'reactstrap'
+import Typed from 'react-typed'
+import { useEffect, useState } from 'react'
 
 export default function Home() {
+
+  const [isFlipping, setIsFlipping] = useState(false)
+
+  var cardAnimationInterval;
+
+  useEffect(() => {
+    animateCard()
+  })
+
+  useEffect(() => {
+    return () => {
+      cardAnimationInterval && clearInterval(cardAnimationInterval)
+    }
+  })
+
+  const animateCard = () => {
+    cardAnimationInterval = setInterval(() => {
+      setIsFlipping((prevVal) => !prevVal)
+    }, 5000)
+  }
+
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+    <BaseLayout className={`cover ${isFlipping ? 'cover-1' : 'cover-0'}`} headerType='index'>
+      <div className="main-section">
+        <div className="background-image">
+          <img src="/static/images/background-index.png" />
         </div>
-      </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
+        <Container>
+          <Row>
+            <Col md="6">
+              <div className="hero-section">
+                <div className={`flipper ${isFlipping ? 'isFlipping' : ''}`}>
+                  <div className="front">
+                    <div className="hero-section-content">
+                      <h2> Hello World! </h2>
+                      <div className="hero-section-content-intro">
+                        Have a look at my portfolio!
+                    </div>
+                    </div>
+                    <img className="image" src="/static/images/section-1.png" />
+                    <div className="shadow-custom">
+                      <div className="shadow-inner"> </div>
+                    </div>
+                  </div>
+                  <div className="back">
+                    <div className="hero-section-content">
+                      <h2> An Enthusiast Developer </h2>
+                      <div className="hero-section-content-intro">
+                        Open for collaborations
+                    </div>
+                    </div>
+                    <img className="image" src="/static/images/section-2.png" />
+                    <div className="shadow-custom shadow-custom-2">
+                      <div className="shadow-inner"> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Col>
+            <Col md="6" className="hero-welcome-wrapper">
+              <div className="hero-welcome-text">
+                <h1>
+                  नमस्ते! I am <strong>Rushank Shah</strong>.
+            </h1>
+              </div>
+              <Typed
+                strings={
+                  ['Flutter Enthusiast', 'MERN Stack', 'Arduino', 'Robotics and Automation', 'Developer', 'Tech Lover']
+                }
+                typeSpeed={60}
+                backSpeed={50}
+                loop
+                className='self-typed'
+              />
+              <div className="hero-welcome-bio">
+                <h1>
+                  Let's take a look at some of my work
+                </h1>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+    </BaseLayout>
+
   )
 }
