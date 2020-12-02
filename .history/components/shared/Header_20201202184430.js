@@ -23,7 +23,7 @@ const Header = (props) => {
         <div>
             <Head>
                 <title>Rushank Shah</title>
-                <link rel="icon" href="/static/images/R.jpg" />
+                <link rel="icon" href="/favicon.ico" />
                 <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet"></link>
             </Head>
             <Navbar className={`port-navbar port-nav-base absolute ${className} ${menuOpenClass}`} color="transparent" dark expand="md">
