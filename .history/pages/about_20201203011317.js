@@ -322,9 +322,6 @@ const about = () => {
                                     Participated in Business Plan competition organised by D.J. Nirmiti in collaboration with
                                     ISME and DJSCE
                                 </li>
-                                <li>
-                                    Successfully Completed CANSAJ - Satellite Designing and Launching Workshop held at Rajiv Gandhi Institute of Technology, Mumbai.
-                                </li>
                             </ul>
                         </div>
                     </Col>
