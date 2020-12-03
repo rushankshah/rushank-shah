@@ -13,7 +13,9 @@ export default function Footer() {
                     </a>
                 </h5>
                 <Row className='mt-3' style={{ textAlign: 'center', color: 'black' }}>
-                    <Col md='12'>
+                    <Col>
+                    </Col>
+                    <Col md='8'>
                         <Row>
                             <Col md='2'>
                                 <div>
@@ -46,18 +48,20 @@ export default function Footer() {
                             <Col md='2'>
                                 <div>
                                     <a target='_blank' style={{ color: 'black', textDecoration: 'none' }} href='https://dev.to/rushankshah'>
-                                        <i className="lni lni-dev lni-lg lni-32 social-media">Dev</i>
+                                        <i class="lni lni-dev lni-lg lni-32 social-media">Dev</i>
                                     </a>
                                 </div>
                             </Col>
                             <Col md='2'>
                                 <div>
                                     <a target='_blank' style={{ color: 'black', textDecoration: 'none' }} href='https://rushankshah65.medium.com/'>
-                                        <i className="lni lni-medium lni-lg lni-32 social-media">Medium</i>
+                                        <i class="lni lni-medium lni-lg lni-32 social-media">Medium</i>
                                     </a>
                                 </div>
                             </Col>
                         </Row>
+                    </Col>
+                    <Col>
                     </Col>
                 </Row>
                 <Row className='mt-3'>

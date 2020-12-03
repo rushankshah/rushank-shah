@@ -46,14 +46,14 @@ export default function Footer() {
                             <Col md='2'>
                                 <div>
                                     <a target='_blank' style={{ color: 'black', textDecoration: 'none' }} href='https://dev.to/rushankshah'>
-                                        <i className="lni lni-dev lni-lg lni-32 social-media">Dev</i>
+                                        <i class="lni lni-dev lni-lg lni-32 social-media">Dev</i>
                                     </a>
                                 </div>
                             </Col>
                             <Col md='2'>
                                 <div>
                                     <a target='_blank' style={{ color: 'black', textDecoration: 'none' }} href='https://rushankshah65.medium.com/'>
-                                        <i className="lni lni-medium lni-lg lni-32 social-media">Medium</i>
+                                        <i class="lni lni-medium lni-lg lni-32 social-media">Medium</i>
                                     </a>
                                 </div>
                             </Col>
