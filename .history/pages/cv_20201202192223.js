@@ -17,7 +17,8 @@ const cv = () => {
                             <iframe style={{ width: '100%', height: '800px' }} src='/static/Resume-Final.pdf'></iframe>
                         </Col>
                     </Row>
-                    <hr></hr>
+                    <Row className='mt-5'>
+                    </Row>
                 </Container>
             </BasePage>
         </BaseLayout>
