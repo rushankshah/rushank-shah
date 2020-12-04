@@ -67,22 +67,24 @@ export default function Home() {
             </Col>
             <Col md="6" className="hero-welcome-wrapper">
               <div className="hero-welcome-text">
-                <h1>
+                <h1 style={{ textAlign: 'center' }}>
                   नमस्ते! I am <strong>Rushank Shah</strong>.
-            </h1>
+                </h1>
               </div>
-              <Typed
-                strings={
-                  ['Flutter Enthusiast', 'MERN Stack', 'Arduino', 'Robotics and Automation', 'Developer', 'Tech Lover']
-                }
-                typeSpeed={60}
-                backSpeed={50}
-                loop
-                className='self-typed'
-              />
+              <div style={{ textAlign: 'center' }}>
+                <Typed
+                  strings={
+                    ['Flutter Enthusiast', 'MERN Stack', 'Arduino', 'Robotics and Automation', 'Developer', 'Tech Lover']
+                  }
+                  typeSpeed={60}
+                  backSpeed={50}
+                  loop
+                  className='self-typed'
+                />
+              </div>
               <div className="hero-welcome-bio">
-                <h1 style={{textAlign: 'center'}}>
-                  Happy to have you on board.<br></br> You can read more about me <Link href='/about'><a style={{textDecoration: 'none'}} className='here'><i>here</i></a></Link>.
+                <h1 style={{ textAlign: 'center' }}>
+                  Happy to have you on board🥳.<br></br> You can read more about me <Link href='/about'><a style={{ textDecoration: 'none' }} className='here'><i>here</i></a></Link>.
                 </h1>
               </div>
             </Col>

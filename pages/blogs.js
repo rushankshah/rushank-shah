@@ -6,11 +6,11 @@ import { Card, CardBody, CardImg, CardSubtitle, CardText, CardTitle, Col, Row } 
 const blogs = () => {
     return (
         <BaseLayout>
-            <BasePage className='about-page'>
+            <BasePage className='blogs-page'>
                 <h1 style={{ textAlign: 'center', color: 'black' }}>Blogs</h1>
                 <Row className='mt-5'>
                     <Col md='12'>
-                        <Card className='intro' style={{ borderRadius: '20px' }}>
+                        <Card className='intro custom-card' style={{ borderRadius: '20px' }}>
                             <CardBody>
                                 <CardImg top src="/static/images/flutter.png" alt="Card image cap"></CardImg>
                                 <CardTitle tag='h3'>
