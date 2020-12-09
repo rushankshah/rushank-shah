@@ -1,6 +1,7 @@
 import BaseLayout from '../components/layouts/BaseLayout'
 import BasePage from '../components/BasePage'
 import { Col, Container, Row } from 'reactstrap'
+import { Zoom } from 'react-awesome-reveal'
 
 
 const cv = () => {
@@ -8,7 +9,9 @@ const cv = () => {
         <BaseLayout>
             <BasePage className='about-page'>
                 <Container>
-                <h1 style={{textAlign: "center", color: 'black'}}>View My CV</h1>
+                <Zoom>
+                    <h1 style={{ textAlign: 'center', color: 'black', fontWeight: 'bold' }}>View my CV</h1>
+                </Zoom>
                     <Row className='mt-5'>
                         <Col md={{ size: 8, offset: 2 }}>
                             <div style={{textAlign: 'center', marginBottom: '20px'}}>
