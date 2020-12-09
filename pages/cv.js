@@ -12,7 +12,7 @@ const cv = () => {
                     <Row className='mt-5'>
                         <Col md={{ size: 8, offset: 2 }}>
                             <div style={{textAlign: 'center', marginBottom: '20px'}}>
-                                <a download='Rushank Shah.pdf' className='btn btn-success' href='/static/Resume-Final.pdf'>Download my Resume</a>
+                                <a download='Rushank Shah.pdf' className='btn btn-outline-success' href='/static/Resume-Final.pdf'>Download my Resume</a>
                             </div>
                             <iframe style={{ width: '100%', height: '800px' }} src='/static/Resume-Final.pdf'></iframe>
                         </Col>
