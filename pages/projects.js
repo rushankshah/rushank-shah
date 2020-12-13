@@ -66,7 +66,7 @@ const projects = () => {
                                     <CardTitle tag='h3'>
                                         Course It
                                     </CardTitle>
-                                    <CardSubtitle tag="h6" className="mb-2 text-muted">Developed interactive & responsive website for a Start Up aiming to create a platform for engineering students to implement research-oriented projects & write research papers, while acquiring all the necessary skills relevant to the industry.</CardSubtitle>
+                                    <CardSubtitle tag="h6" className="mb-2 text-muted">A full-fledged online learning platform contains numerous features aiming to improve the e-learning system, right from analytics to achieving abstraction and various customization for students/professors. We developed a website as well as a cross-platform mobile application.</CardSubtitle>
                                     <Row className='mt-5'>
                                         <Col md='6'>
                                             <a className='btn btn-outline-info' target='_blank' href='https://www.youtube.com/watch?v=DS0so4L6310&feature=youtu.be'>Project</a>
