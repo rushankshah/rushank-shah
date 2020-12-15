@@ -30,7 +30,7 @@ const about = () => {
                                 and Automation project to building modern and beautiful mobile and web apps using Flutter and React.
                                 </p>
                                 <p>
-                                    I enjoy building up new Ideas and solutions to real life problems and devising feasible solutions to broadly relevant problems
+                                    I enjoy building up new Ideas and solutions to real life problems and devising feasible solutions to broadly relevant problems.
                                 </p>
                             </div>
                         </Fade>
