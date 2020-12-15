@@ -4,6 +4,7 @@ import Typed from 'react-typed'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { Flip, JackInTheBox, Zoom } from 'react-awesome-reveal'
+import ReactTooltip from 'react-tooltip'
 
 export default function Home() {
 
@@ -74,7 +75,13 @@ export default function Home() {
               <Zoom direction='left'>
                 <div className="hero-welcome-text">
                   <h1 style={{ textAlign: 'center' }}>
-                    नमस्ते! I am <strong>Rushank Shah</strong>.
+                    <span data-tip data-for='namaste'>नमस्ते</span>! I am <strong data-tip data-for='rushankShah'>Rushank Shah</strong>.
+                    <ReactTooltip id='rushankShah' backgroundColor='black'>
+                      <span>Rushank means <strong>Lord shiva</strong></span>
+                    </ReactTooltip>
+                    <ReactTooltip id='namaste' backgroundColor='black'>
+                      <span>Namaste means <strong>Hello</strong> in Hindi</span>
+                    </ReactTooltip>
                   </h1>
                 </div>
               </Zoom>

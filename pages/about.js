@@ -2,6 +2,7 @@ import BaseLayout from '../components/layouts/BaseLayout'
 import BasePage from '../components/BasePage'
 import { Card, CardBody, CardSubtitle, CardText, CardTitle, Col, Row } from 'reactstrap'
 import { Bounce, Fade, Slide, Zoom } from 'react-awesome-reveal'
+import ReactTooltip from 'react-tooltip'
 
 const about = () => {
     return (
@@ -12,8 +13,11 @@ const about = () => {
                         <Fade direction='left'>
                             <div className='left-side'>
                                 <h1 className='title'>
-                                    नमस्ते!
+                                    <span data-tip data-for='namaste'>नमस्ते!</span>
                                 </h1>
+                                <ReactTooltip id='namaste' backgroundColor='black'>
+                                    <span>Namaste means <strong>Hello</strong> in Hindi</span>
+                                </ReactTooltip>
                                 <h4 className='subtitle'>
                                     Feel Free to connect
                                 </h4>
@@ -24,8 +28,8 @@ const about = () => {
                     <Col md='6'>
                         <Fade direction='right'>
                             <div className='fadein intro'>
-                                <p>My name is <span style={{ fontWeight: 'bold' }}>Rushank Shah</span> and I am an experienced Developer and upcoming IT Engineer</p>
-                                <p>I am currently pursuing my Bachelor's Degree from D.J. Sanghvi College of Engineering, Mumbai, India
+                                <p>My name is <span style={{ fontWeight: 'bold' }}>Rushank Shah</span> and I am an experienced Developer and upcoming IT Engineer.</p>
+                                <p>I am currently pursuing my Bachelor's Degree from <i>D.J. Sanghvi College of Engineering, Mumbai, India </i>
                                 and am experienced working on wide range of technologies and projects from C++ development for Arduino in Robotics
                                 and Automation project to building modern and beautiful mobile and web apps using Flutter and React.
                                 </p>
