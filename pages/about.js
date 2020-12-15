@@ -330,6 +330,31 @@ const about = () => {
                         </Slide>
                     </Col>
                 </Row>
+                <Row className='mt-5'>
+                    <Col md='12'>
+                        <Slide direction='right'>
+                            <Card className='intro custom-card'>
+                                <CardBody>
+                                    <CardTitle tag='h3'>
+                                        Computer Society of India (DJCSI) , DJ Sanghvi
+                                    </CardTitle>
+                                    <CardSubtitle tag="h6" className="mb-2 text-muted">September 2019 - November 2020</CardSubtitle>
+                                    <div>
+                                        <span style={{ fontWeight: '500' }}>Publicity co-committee member</span><br></br><br></br>
+                                        <ul>
+                                            <li>
+                                                Publicised nation wide events like Codeshastra with a participation of over 3000 participants
+                                            </li>
+                                            <li>
+                                                Increased the subscriber base of social media handles like Instagram and YouTube.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </CardBody>
+                            </Card>
+                        </Slide>
+                    </Col>
+                </Row>
                 <hr></hr>
                 <Zoom>
                     <h3 className='title' style={{ textAlign: 'center', color: 'black' }}>
