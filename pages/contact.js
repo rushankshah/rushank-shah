@@ -28,9 +28,7 @@ const contact = () => {
             emailjs.sendForm('service_do2sgl3', 'template_2m6ik84', e.target, 'user_W9C33uDdLyeyJH34XvJhJ')
                 .then((result) => {
                     console.log(result.text);
-                    setTimeout(() => {
-                        setToast(true)
-                    }, 3000)
+                    setToast(true)
                     setNameValidated(false)
                     setEmailValidation(false)
                     setSubjectValidation(false)
