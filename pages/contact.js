@@ -28,7 +28,9 @@ const contact = () => {
             emailjs.sendForm('service_do2sgl3', 'template_2m6ik84', e.target, 'user_W9C33uDdLyeyJH34XvJhJ')
                 .then((result) => {
                     console.log(result.text);
-                    setToast(true)
+                    setTimeout(() => {
+                        setToast(true)
+                    }, 3000)
                     setNameValidated(false)
                     setEmailValidation(false)
                     setSubjectValidation(false)
@@ -50,61 +52,73 @@ const contact = () => {
                     <Row className='mt-5'>
                         <Col md='6'>
                             <Form onSubmit={handleSubmit}>
-                                <FormGroup check>
-                                    <Label for='name' className='normal-text'>Name</Label>
-                                    <Input valid={nameValidation} invalid={!nameValidation} onChange={(e) => {
-                                        if (e.target.value != '')
-                                            setNameValidated(true)
-                                        else
-                                            setNameValidated(false)
-                                    }} type='text' name='name' id='name' placeholder='Please enter your name here' required />
-                                    <FormFeedback>This field cannot be empty</FormFeedback>
-                                </FormGroup>
-                                <FormGroup check>
-                                    <Label for='email' className='normal-text'>Email</Label>
-                                    <Input valid={emailValidation} invalid={!emailValidation} onChange={(e => {
-                                        if (validator.isEmail(e.target.value))
-                                            setEmailValidation(true)
-                                        else
-                                            setEmailValidation(false)
-                                    })} type='text' name='email' id='email' placeholder='Please enter your email here' required />
-                                    <FormFeedback>Invalid Email</FormFeedback>
-                                </FormGroup>
-                                <FormGroup check>
-                                    <Label for='subject' className='normal-text'>Subject</Label>
-                                    <Input valid={subjectValidation} invalid={!subjectValidation} onChange={(e) => {
-                                        if (e.target.value != '')
-                                            setSubjectValidation(true)
-                                        else
-                                            setSubjectValidation(false)
-                                    }} type='text' name='subject' id='subject' placeholder='Please enter your subject here' required />
-                                    <FormFeedback>This field cannot be empty</FormFeedback>
-                                </FormGroup>
-                                <FormGroup check>
-                                    <Label for='message' className='normal-text'>Messsage</Label>
-                                    <Input type='textarea' valid={messageValidation} invalid={!messageValidation} onChange={(e) => {
-                                        if (e.target.value != '')
-                                            setMessageValidation(true)
-                                        else
-                                            setMessageValidation(false)
-                                    }} name='message' id='message' placeholder='Please enter your message here' required />
-                                    <FormFeedback>This field cannot be empty</FormFeedback>
-                                </FormGroup>
+                                <Zoom direction='right'>
+                                    <FormGroup check>
+                                        <Label for='name' className='normal-text'>Name</Label>
+                                        <Input valid={nameValidation} invalid={!nameValidation} onChange={(e) => {
+                                            if (e.target.value != '')
+                                                setNameValidated(true)
+                                            else
+                                                setNameValidated(false)
+                                        }} type='text' name='name' id='name' placeholder='Please enter your name here' required />
+                                        <FormFeedback>This field cannot be empty</FormFeedback>
+                                    </FormGroup>
+                                </Zoom>
+                                <Zoom direction='right'>
+                                    <FormGroup check>
+                                        <Label for='email' className='normal-text'>Email</Label>
+                                        <Input valid={emailValidation} invalid={!emailValidation} onChange={(e => {
+                                            if (validator.isEmail(e.target.value))
+                                                setEmailValidation(true)
+                                            else
+                                                setEmailValidation(false)
+                                        })} type='text' name='email' id='email' placeholder='Please enter your email here' required />
+                                        <FormFeedback>Invalid Email</FormFeedback>
+                                    </FormGroup>
+                                </Zoom>
+                                <Zoom direction='right'>
+                                    <FormGroup check>
+                                        <Label for='subject' className='normal-text'>Subject</Label>
+                                        <Input valid={subjectValidation} invalid={!subjectValidation} onChange={(e) => {
+                                            if (e.target.value != '')
+                                                setSubjectValidation(true)
+                                            else
+                                                setSubjectValidation(false)
+                                        }} type='text' name='subject' id='subject' placeholder='Please enter your subject here' required />
+                                        <FormFeedback>This field cannot be empty</FormFeedback>
+                                    </FormGroup>
+                                </Zoom>
+                                <Zoom direction='right'>
+                                    <FormGroup check>
+                                        <Label for='message' className='normal-text'>Messsage</Label>
+                                        <Input type='textarea' valid={messageValidation} invalid={!messageValidation} onChange={(e) => {
+                                            if (e.target.value != '')
+                                                setMessageValidation(true)
+                                            else
+                                                setMessageValidation(false)
+                                        }} name='message' id='message' placeholder='Please enter your message here' required />
+                                        <FormFeedback>This field cannot be empty</FormFeedback>
+                                    </FormGroup>
+                                </Zoom>
                                 <br></br>
-                                <FormGroup check>
-                                    <Button outline color='info' disabled={submit}> Submit </Button>
-                                </FormGroup>
+                                <Zoom direction='right'>
+                                    <FormGroup check>
+                                        <Button outline color='info' disabled={submit}> Submit </Button>
+                                    </FormGroup>
+                                </Zoom>
                             </Form>
                         </Col>
                         <Col md='6' className='justify-content-center d-flex'>
-                            <Toast isOpen={showToast}>
-                                <ToastHeader toggle={() => setToast(false)}>
-                                    Thanks for connecting
-                                </ToastHeader>
-                                <ToastBody className='normal-text'>
-                                    I will get back to you soon!
-                                </ToastBody>
-                            </Toast>
+                            <Zoom direction='left'>
+                                <Toast isOpen={showToast}>
+                                    <ToastHeader toggle={() => setToast(false)}>
+                                        Thanks for connecting!
+                                    </ToastHeader>
+                                    <ToastBody className='normal-text'>
+                                        I will get back to you soon! I have sent you an auto generated mail to confirm that your message has been sent!!!
+                                    </ToastBody>
+                                </Toast>
+                            </Zoom>
                         </Col>
                     </Row>
                     <Row className='mt-5'></Row>
