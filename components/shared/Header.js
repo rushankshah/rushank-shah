@@ -56,6 +56,11 @@ const Header = (props) => {
                                 <a className='nav-link port-navbar-link'> Blogs </a>
                             </Link>
                         </NavItem>
+                        <NavItem className='port-navbar-item'>
+                            <Link href='/contact'>
+                                <a className='nav-link port-navbar-link'> Contact me </a>
+                            </Link>
+                        </NavItem>
                     </Nav>
                 </Collapse>
             </Navbar>

@@ -1,0 +1,11 @@
+.contact-page{
+    .title {
+        @include animation-detail(0.7s);
+        font-size: 42px;
+        font-weight: bold;
+      }
+
+      .normal-text{
+        color: black;
+      }
+}
