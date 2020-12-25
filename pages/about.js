@@ -21,7 +21,7 @@ const about = () => {
                                 <h4 className='subtitle'>
                                     Feel Free to connect
                                 </h4>
-                                <img src='/static/images/profile.jpg' className='center' style={{ borderRadius: '20px', height: '275px' }}></img>
+                                <img src='/static/images/profile.jpg' style={{ borderRadius: '20px', height: '275px', boxShadow: '5px 5px 5px 5px #888888' }}></img>
                             </div>
                         </Fade>
                     </Col>
