@@ -16,6 +16,25 @@ const blogs = () => {
                         <Slide direction='left'>
                             <Card className='intro custom-card' style={{ borderRadius: '20px' }}>
                                 <CardBody>
+                                    <CardImg top src="/static/images/sys.png" alt="Card image cap"></CardImg>
+                                    <CardTitle tag='h3'>
+                                        How to make an IoT app using Flutter, Firebase and NodeMCU ESP8266?
+                                    </CardTitle>
+                                    <CardSubtitle tag="h6" className="mb-2 text-muted">October 16, 2020</CardSubtitle>
+                                    <CardText>
+                                        Build an IOT app using Flutter to control an LED
+                                    </CardText>
+                                    <a className='btn btn-outline-info' target='_blank' href='https://rushankshah65.medium.com/how-to-make-an-iot-app-using-flutter-firebase-and-nodemcu-esp8266-b7a0a8c390ee'>Read</a>
+                                </CardBody>
+                            </Card>
+                        </Slide>
+                    </Col>
+                </Row>
+                <Row className='mt-5'>
+                    <Col md='12'>
+                        <Slide direction='right'>
+                            <Card className='intro custom-card' style={{ borderRadius: '20px' }}>
+                                <CardBody>
                                     <CardImg top src="/static/images/flutter.png" alt="Card image cap"></CardImg>
                                     <CardTitle tag='h3'>
                                         How to install, setup and run your first Flutter application on Android Studio
