@@ -88,7 +88,7 @@ export default function Home() {
               <div style={{ textAlign: 'center' }}>
                 <Typed
                   strings={
-                    ['Flutter Enthusiast', 'MERN Stack', 'Arduino', 'Robotics and Automation', 'Developer', 'Tech Lover']
+                    ['Flutter Enthusiast', 'ReactJS', 'Arduino', 'Robotics and Automation', 'Developer', 'Tech Lover']
                   }
                   typeSpeed={60}
                   backSpeed={50}
