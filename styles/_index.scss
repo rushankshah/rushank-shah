@@ -133,11 +133,34 @@
     left: 0;
   }
 
+  .namaste{
+    transition: 0.2s;
+  }
+
+  .namaste:hover{
+    font-size: 30px;
+  }
+
+  .my-name{
+    transition: text-shadow 1s;
+    transition: font-size 0.2s;
+  }
+
+  .my-name:hover{
+    font-size: 30px;
+  }
+
   .cover-0 {
+    .my-name{
+      text-shadow: 2px 2px 8px lightblue;
+    }
   }
   
   .cover-1 {
     background-image: linear-gradient(45deg, rgb(254, 202, 83), rgb(253, 157, 97));
+    .my-name{
+      text-shadow: 2px 2px 8px #fffdd0;
+    }
   }
 
   .front{
@@ -151,6 +174,7 @@
 
   .here{
     color: white;
+    transition: 0.2s;
   }
   
   .here:hover{

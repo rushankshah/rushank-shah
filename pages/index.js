@@ -75,7 +75,7 @@ export default function Home() {
               <Zoom direction='left'>
                 <div className="hero-welcome-text">
                   <h1 style={{ textAlign: 'center' }}>
-                    <span data-tip data-for='namaste'>नमस्ते</span>! I am <strong data-tip data-for='rushankShah'>Rushank Shah</strong>.
+                    <span data-tip data-for='namaste' className='namaste'>नमस्ते</span>! I am <strong data-tip data-for='rushankShah' className='my-name'>Rushank Shah</strong>.
                     <ReactTooltip id='rushankShah' backgroundColor='black'>
                       <span>Rushank means <strong>Lord shiva</strong></span>
                     </ReactTooltip>

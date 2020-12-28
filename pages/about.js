@@ -347,10 +347,10 @@ const about = () => {
                                         <span style={{ fontWeight: '500' }}>Publicity co-committee member</span><br></br><br></br>
                                         <ul>
                                             <li>
-                                                Publicised nation wide events like Codeshastra with a participation of over 3000 participants
+                                                Worked towards conducting National level events with enormous participation from all over India.
                                             </li>
                                             <li>
-                                                Increased the subscriber base of social media handles like Instagram and YouTube.
+                                                Built a large connection of people and have been to various Colleges across Mumbai to publicize events and make them a successful one.
                                             </li>
                                         </ul>
                                     </div>
