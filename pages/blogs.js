@@ -14,7 +14,7 @@ const blogs = () => {
                 <Row className='mt-5'>
                     <Col md='12'>
                         <Slide direction='left'>
-                            <Card className='intro custom-card' style={{ borderRadius: '20px' }}>
+                            <Card className='intro custom-card'>
                                 <CardBody>
                                     <CardImg top src="/static/images/sys.png" alt="Card image cap"></CardImg>
                                     <CardTitle tag='h3'>
@@ -33,7 +33,7 @@ const blogs = () => {
                 <Row className='mt-5'>
                     <Col md='12'>
                         <Slide direction='right'>
-                            <Card className='intro custom-card' style={{ borderRadius: '20px' }}>
+                            <Card className='intro custom-card'>
                                 <CardBody>
                                     <CardImg top src="/static/images/flutter.png" alt="Card image cap"></CardImg>
                                     <CardTitle tag='h3'>
