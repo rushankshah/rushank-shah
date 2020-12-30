@@ -5,6 +5,7 @@ import { useState } from 'react'
 import { Zoom } from 'react-awesome-reveal'
 import validator from 'validator'
 import emailjs from 'emailjs-com';
+import CustomCursor from '../components/shared/CustomCursor'
 
 const contact = () => {
 
@@ -42,6 +43,7 @@ const contact = () => {
 
     return (
         <BaseLayout>
+            <CustomCursor />
             <BasePage className='contact-page'>
                 <Container>
                     <Zoom>

@@ -2,11 +2,13 @@ import BaseLayout from '../components/layouts/BaseLayout'
 import BasePage from '../components/BasePage'
 import { Card, CardBody, CardImg, CardSubtitle, CardText, CardTitle, Col, Row } from 'reactstrap'
 import { Slide, Zoom } from 'react-awesome-reveal'
+import CustomCursor from '../components/shared/CustomCursor'
 
 
 const blogs = () => {
     return (
         <BaseLayout>
+            <CustomCursor />
             <BasePage className='blogs-page'>
                 <Zoom>
                     <h1 style={{ textAlign: 'center', color: 'black', fontWeight: 'bold' }}>Blogs</h1>

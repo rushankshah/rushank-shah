@@ -3,10 +3,12 @@ import BasePage from '../components/BasePage'
 import { Card, CardBody, CardSubtitle, CardText, CardTitle, Col, Row } from 'reactstrap'
 import { Bounce, Fade, Slide, Zoom } from 'react-awesome-reveal'
 import ReactTooltip from 'react-tooltip'
+import CustomCursor from '../components/shared/CustomCursor'
 
 const about = () => {
     return (
         <BaseLayout>
+            <CustomCursor />
             <BasePage className='about-page'>
                 <Row className='mt-5'>
                     <Col md='6'>

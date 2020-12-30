@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { Flip, JackInTheBox, Zoom } from 'react-awesome-reveal'
 import ReactTooltip from 'react-tooltip'
+import CustomCursor from '../components/shared/CustomCursor'
 
 export default function Home() {
 
@@ -34,7 +35,7 @@ export default function Home() {
         <div className="background-image">
           <img src="/static/images/background-index.png" />
         </div>
-
+        <CustomCursor />
         <Container>
           <Row>
             <Col md="6">
