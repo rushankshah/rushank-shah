@@ -22,9 +22,10 @@
       &-link {
         color: white;
         font-weight: bold;
-        letter-spacing: 0.8px;
+        // letter-spacing: 0.8px;
         font-size: 18px;
         text-transform: uppercase;
+        transition: 0.25s;
   
         &.active {
         color: #dba919;
@@ -32,6 +33,7 @@
   
         &:hover, &:focus {
           color: #dba919;
+          font-size: 19px;
         }
       }
     }
