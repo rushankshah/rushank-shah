@@ -121,7 +121,7 @@ const contact = () => {
                             </Zoom>
                         </Col>
                     </Row>
-                    <Row className='mt-5'></Row>
+                    <hr></hr>
                 </Container>
             </BasePage>
         </BaseLayout>
