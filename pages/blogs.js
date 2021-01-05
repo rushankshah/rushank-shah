@@ -18,11 +18,30 @@ const blogs = () => {
                         <Slide direction='left'>
                             <Card className='intro custom-card'>
                                 <CardBody>
+                                    <CardImg top src="/static/images/Custom-Cursor.png" alt="Card image cap"></CardImg>
+                                    <CardTitle tag='h3'>
+                                        How to add a Custom cursor to NextJS application?
+                                    </CardTitle>
+                                    <CardSubtitle tag="h6" className="mb-2 text-muted">05 May, 2021</CardSubtitle>
+                                    <CardText>
+                                        Add a custom cursor to your NextJS application
+                                    </CardText>
+                                    <a className='btn btn-outline-info' target='_blank' href='https://rushankshah65.medium.com/how-to-add-a-custom-cursor-in-nextjs-application-bd7564cd7b54'>Read</a>
+                                </CardBody>
+                            </Card>
+                        </Slide>
+                    </Col>
+                </Row>
+                <Row className='mt-5'>
+                    <Col md='12'>
+                        <Slide direction='right'>
+                            <Card className='intro custom-card'>
+                                <CardBody>
                                     <CardImg top src="/static/images/sys.png" alt="Card image cap"></CardImg>
                                     <CardTitle tag='h3'>
                                         How to make an IoT app using Flutter, Firebase and NodeMCU ESP8266?
                                     </CardTitle>
-                                    <CardSubtitle tag="h6" className="mb-2 text-muted">October 16, 2020</CardSubtitle>
+                                    <CardSubtitle tag="h6" className="mb-2 text-muted">December 26, 2020</CardSubtitle>
                                     <CardText>
                                         Build an IOT app using Flutter to control an LED
                                     </CardText>
@@ -34,7 +53,7 @@ const blogs = () => {
                 </Row>
                 <Row className='mt-5'>
                     <Col md='12'>
-                        <Slide direction='right'>
+                        <Slide direction='left'>
                             <Card className='intro custom-card'>
                                 <CardBody>
                                     <CardImg top src="/static/images/flutter.png" alt="Card image cap"></CardImg>
