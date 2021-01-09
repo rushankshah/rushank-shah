@@ -23,7 +23,7 @@ export default function Footer() {
                             <Row>
                                 <Col md='2'>
                                     <div>
-                                        <a target='_blank' style={{ color: 'black', textDecoration: 'none' }} href='https://www.linkedin.com/in/rushank-shah-65836b1a6/'>
+                                        <a target='_blank' style={{ color: 'black', textDecoration: 'none' }} href='https://www.linkedin.com/in/rushankshah65/'>
                                             <i className="lni lni-linkedin-original lni-lg lni-25 social-media">LinkedIn</i>
                                         </a>
                                     </div>
