@@ -1,4 +1,4 @@
-import { Fade, Slide, Zoom } from "react-awesome-reveal";
+import { Slide, Zoom } from "react-awesome-reveal";
 import { Col, Row } from "reactstrap";
 
 export default function Footer() {

@@ -4,7 +4,6 @@ import Footer from './shared/Footer'
 
 export default function BasePage(props) {
     const className = props.className || ''
-    const title = props.title
     return (
         <div className={`base-page ${className}`}>
             <Container>
