@@ -6,6 +6,7 @@
 @import 'projects';
 @import 'blogs';
 @import 'contact';
+@import 'footer';
 
 html, body {
     height:100%;
@@ -38,15 +39,6 @@ html, body {
       margin-bottom: 20px;
     }
   }
-}
-
-.social-media{
-  transition: 0.2s;
-}
-
-.social-media:hover{
-  color: #dba919;
-  cursor: pointer;
 }
 
 .clickable{
