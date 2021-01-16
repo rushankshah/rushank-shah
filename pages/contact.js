@@ -60,7 +60,7 @@ const contact = () => {
                                                 setNameValidated(true)
                                             else
                                                 setNameValidated(false)
-                                        }} type='text' name='name' id='name' placeholder='Please enter your name here' required />
+                                        }} type='text' name='name' id='name' required />
                                         <FormFeedback>This field cannot be empty</FormFeedback>
                                     </FormGroup>
                                 </Zoom>
@@ -72,7 +72,7 @@ const contact = () => {
                                                 setEmailValidation(true)
                                             else
                                                 setEmailValidation(false)
-                                        })} type='text' name='email' id='email' placeholder='Please enter your email here' required />
+                                        })} type='text' name='email' id='email' required />
                                         <FormFeedback>Invalid Email</FormFeedback>
                                     </FormGroup>
                                 </Zoom>
@@ -84,7 +84,7 @@ const contact = () => {
                                                 setSubjectValidation(true)
                                             else
                                                 setSubjectValidation(false)
-                                        }} type='text' name='subject' id='subject' placeholder='Please enter your subject here' required />
+                                        }} type='text' name='subject' id='subject' required />
                                         <FormFeedback>This field cannot be empty</FormFeedback>
                                     </FormGroup>
                                 </Zoom>
@@ -96,7 +96,7 @@ const contact = () => {
                                                 setMessageValidation(true)
                                             else
                                                 setMessageValidation(false)
-                                        }} name='message' id='message' placeholder='Please enter your message here' required />
+                                        }} name='message' id='message' required />
                                         <FormFeedback>This field cannot be empty</FormFeedback>
                                     </FormGroup>
                                 </Zoom>
