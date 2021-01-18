@@ -223,7 +223,7 @@ const about = () => {
                                     </CardTitle>
                                     <CardSubtitle tag="h6" className="mb-2 text-muted">August 2018 - May 2022</CardSubtitle>
                                     <CardText>
-                                        <span style={{ fontWeight: '500' }}>Bachelor of Engineering (B.E.) - Information Technology</span><br></br>9.19 C.G.PA
+                                        <span style={{ fontWeight: '500' }}>Bachelor of Engineering (B.E.) - Information Technology</span><br></br>9.352 C.G.PA
                                     </CardText>
                                 </CardBody>
                             </Card>
