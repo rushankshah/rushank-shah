@@ -6,7 +6,6 @@ import Link from 'next/link'
 import { Flip, JackInTheBox, Zoom } from 'react-awesome-reveal'
 import ReactTooltip from 'react-tooltip'
 import CustomCursor from '../components/shared/CustomCursor'
-import Image from 'next/image'
 
 export default function Home() {
 
@@ -34,7 +33,7 @@ export default function Home() {
     <BaseLayout className={`cover ${isFlipping ? 'cover-1' : 'cover-0'}`} headerType='index'>
       <div className="main-section">
         <div className="background-image">
-          <Image src="/static/images/background-index.png" />
+          <img src="/static/images/background-index.png" />
         </div>
         <CustomCursor />
         <Container>
@@ -51,7 +50,7 @@ export default function Home() {
                             Have a look at my portfolio!
                           </div>
                         </div>
-                        <Image className="image" src="/static/images/section-1.png" />
+                        <img className="image" src="/static/images/section-1.png" />
                         <div className="shadow-custom">
                           <div className="shadow-inner"> </div>
                         </div>
@@ -63,7 +62,7 @@ export default function Home() {
                             Open for collaborations
                         </div>
                         </div>
-                        <Image className="image" src="/static/images/section-2.png" />
+                        <img className="image" src="/static/images/section-2.png" />
                         <div className="shadow-custom shadow-custom-2">
                           <div className="shadow-inner"> </div>
                         </div>
