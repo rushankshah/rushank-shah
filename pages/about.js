@@ -4,6 +4,7 @@ import { Card, CardBody, CardSubtitle, CardText, CardTitle, Col, Row } from 'rea
 import { Bounce, Fade, Slide, Zoom } from 'react-awesome-reveal'
 import ReactTooltip from 'react-tooltip'
 import CustomCursor from '../components/shared/CustomCursor'
+import Image from 'next/image'
 
 const about = () => {
     return (
@@ -23,7 +24,7 @@ const about = () => {
                                 <h4 className='subtitle'>
                                     Feel Free to connect
                                 </h4>
-                                <img src='/static/images/profile.jpg' style={{ borderRadius: '20px', height: '275px', boxShadow: '5px 5px 5px 5px #888888' }}></img>
+                                <Image src='/static/images/profile.jpg' style={{ borderRadius: '20px', height: '275px', boxShadow: '5px 5px 5px 5px #888888' }}></Image>
                             </div>
                         </Fade>
                     </Col>
