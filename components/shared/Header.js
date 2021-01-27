@@ -27,7 +27,7 @@ const Header = (props) => {
                 <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet"></link>
             </Head>
             <Navbar className={`port-navbar port-nav-base absolute ${className} ${menuOpenClass}`} color="transparent" dark expand="md">
-                <NavbarBrand className='port-navbar-brand'>Rushank Shah</NavbarBrand>
+                <Link href='/'><NavbarBrand className='port-navbar-brand'><a className='name-link'>Rushank Shah</a></NavbarBrand></Link>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="ml-auto" navbar>
