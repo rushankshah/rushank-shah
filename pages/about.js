@@ -373,28 +373,28 @@ const about = () => {
                             <div className='intro'>
                                 <ul>
                                     <li>
-                                        Secured 4th place in Scholastic robotics Competition organised by IIT Bombay (National level)
+                                        Secured 4th place in Scholastic robotics Competition organised by IIT Bombay (National level).
                                     </li>
                                     <li>
-                                        Winner at CodeIt hackathon organized by E-Cell, DJSCE in association with ACM, DJSCE
+                                        Winner at CodeIt hackathon organized by E-Cell, DJSCE in association with ACM, DJSCE.
                                     </li>
                                     <li>
-                                        Finalist in Hack the Hourglass Hackathon organised by IEEE-MAIT
+                                        Finalist in Hack the Hourglass Hackathon organised by IEEE-MAIT and DotSlash 4.0 organized by NIT Surat.
                                     </li>
                                     <li>
                                         Written a research thesis under METX Robotics for Line following Robot using PID based
-                                        Algorithm
+                                        Algorithm.
                                     </li>
                                     <li>
                                         Cleared with first division with distinction in Bal Junior and Bal Senior in Keyboard organ
-                                        from Bharatiya Sangeet Samiti
+                                        from Bharatiya Sangeet Samiti.
                                     </li>
                                     <li>
-                                        Managed a complete event at NESCO Exhibition centre for METX Robotics. (3-day long event)
+                                        Managed a complete event at NESCO Exhibition centre for METX Robotics. (3-day long event).
                                     </li>
                                     <li>
                                         Participated in Business Plan competition organised by D.J. Nirmiti in collaboration with
-                                        ISME and DJSCE
+                                        ISME and DJSCE.
                                     </li>
                                     <li>
                                         Successfully Completed CANSAJ - Satellite Designing and Launching Workshop held at Rajiv Gandhi Institute of Technology, Mumbai.
