@@ -12,7 +12,7 @@ const cv = () => {
             <BasePage className='about-page'>
                 <Container>
                     <Zoom>
-                        <h1 style={{ textAlign: 'center', color: 'black', fontWeight: 'bold' }}>View my CV</h1>
+                        <h1 style={{ textAlign: 'center', color: 'black', fontWeight: 'bold' }}>Resume</h1>
                     </Zoom>
                     <Row className='mt-5'>
                         <Col md={{ size: 8, offset: 2 }}>
