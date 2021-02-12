@@ -1,5 +1,4 @@
 @import './shared/colors';
-  // HEADER
   .port-navbar.port-nav-base {
     width: 100%;
     z-index: 15;
@@ -55,7 +54,6 @@
       &-link {
         color: white;
         font-weight: bold;
-        // letter-spacing: 0.8px;
         font-size: 18px;
         text-transform: uppercase;
         transition: 0.25s;
