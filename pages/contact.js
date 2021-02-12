@@ -78,7 +78,7 @@ const contact = () => {
                                 </Zoom>
                                 <Zoom direction='right'>
                                     <FormGroup check>
-                                        <Label for='subject' className='normal-text'>Subject</Label>
+                                        <Label for='subject' className='normal-text'>Topic</Label>
                                         <Input valid={subjectValidation} invalid={!subjectValidation} onChange={(e) => {
                                             if (e.target.value != '')
                                                 setSubjectValidation(true)
