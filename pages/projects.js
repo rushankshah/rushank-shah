@@ -151,8 +151,6 @@ const projects = () => {
                     </Col>
                 </Row>
                 <Row className='mt-5'>
-                    <Col>
-                    </Col>
                     <Col md='4'>
                         <Fade delay={500}>
                             <Card className='intro custom-card'>
@@ -197,7 +195,28 @@ const projects = () => {
                             </Card>
                         </Fade>
                     </Col>
-                    <Col></Col>
+                    <Col md='4'>
+                        <Fade delay={1500}>
+                            <Card className='intro custom-card'>
+                                <CardImg top src="/static/images/Rural-HealthCare.png" style={{ borderRadius: '50px 50px 0px 0px' }} alt="Card image cap"></CardImg>
+                                <hr></hr>
+                                <CardBody>
+                                    <CardTitle tag='h3'>
+                                        Rural Healthcare Management System
+                                    </CardTitle>
+                                    <CardSubtitle tag="h6" className="mb-2 text-muted">An online and offline based solution for rural area where people from rural area can communicate with Doctors and attend events with cloud based report storing system. It also has Multilingual support and an offline mode for app where in emergency situations patient can directly communicate with the doctors. Apart from these, options for AR based vaccine drives and automated notifications for vaccine drives was also provided.</CardSubtitle>
+                                    <Row className='mt-5'>
+                                        <Col md='6'>
+                                            <a className='btn btn-outline-info' target='_blank' href='https://youtu.be/gA__kyvLjtA'>Project</a>
+                                        </Col>
+                                        <Col md='6'>
+                                            <a className='btn btn-outline-info' target='_blank' href='https://github.com/rushankshah/Rural-HealthCare-System'>Repository</a>
+                                        </Col>
+                                    </Row>
+                                </CardBody>
+                            </Card>
+                        </Fade>
+                    </Col>
                 </Row>
                 <hr></hr>
             </BasePage>
