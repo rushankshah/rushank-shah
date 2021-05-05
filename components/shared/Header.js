@@ -24,6 +24,13 @@ const Header = (props) => {
             <Head>
                 <title>Rushank Shah</title>
                 <link rel="icon" href="/static/images/R.jpg" />
+                <meta charset="UTF-8" />
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+                <meta name="description" content="This website is the portfolio website of Rushank Shah" />
+                <meta name="keywords" content="Rushank Shah, Portfolio, Rushank Mihir Shah, R Shah, RS" />
+                <meta name="author" content="Rushank Shah" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet"></link>
             </Head>
             <Navbar className={`port-navbar port-nav-base absolute ${className} ${menuOpenClass}`} color="transparent" dark expand="md">

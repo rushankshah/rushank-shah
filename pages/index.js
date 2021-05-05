@@ -33,7 +33,7 @@ export default function Home() {
     <BaseLayout className={`cover ${isFlipping ? 'cover-1' : 'cover-0'}`} headerType='index'>
       <div className="main-section">
         <div className="background-image">
-          <img src="/static/images/background-index.png" />
+          <img src="/static/images/background-index.png" alt="Background Image"/>
         </div>
         <CustomCursor />
         <Container>
@@ -50,7 +50,7 @@ export default function Home() {
                             Have a look at my portfolio!
                           </div>
                         </div>
-                        <img className="image" src="/static/images/section-1.png" />
+                        <img className="image" src="/static/images/section-1.png" alt='Section 1'/>
                         <div className="shadow-custom">
                           <div className="shadow-inner"> </div>
                         </div>
@@ -62,7 +62,7 @@ export default function Home() {
                             Open for collaborations
                         </div>
                         </div>
-                        <img className="image" src="/static/images/section-2.png" />
+                        <img className="image" src="/static/images/section-2.png" alt='Section 2'/>
                         <div className="shadow-custom shadow-custom-2">
                           <div className="shadow-inner"> </div>
                         </div>
