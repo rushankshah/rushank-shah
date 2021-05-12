@@ -29,7 +29,7 @@ const about = () => {
                     </Col>
                     <Col md='6'>
                         <Fade direction='right'>
-                            <div className='fadein intro'>
+                            <div className='fadein introduction'>
                                 <p>My name is <span style={{ fontWeight: 'bold' }}>Rushank Shah</span> and I am an experienced Developer and upcoming IT Engineer.</p>
                                 <p>I am currently pursuing my Bachelor's Degree from <i>D.J. Sanghvi College of Engineering, Mumbai, India </i>
                                 and am experienced working on wide range of technologies and projects from C++ development for Arduino in Robotics

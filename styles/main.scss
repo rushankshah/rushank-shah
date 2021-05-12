@@ -7,105 +7,104 @@
 @import 'blogs';
 @import 'contact';
 @import 'footer';
-
-html, body {
-    height:100%;
-    width:100%;
+html,
+body {
+    height: 100%;
+    width: 100%;
     font-family: 'Montserrat', 'Helvetica';
-  }
+}
 
-.self-typed{
-  font-size: 31px;
-  font-weight: 500;
-  letter-spacing: 2px;
-  color: white;
+.self-typed {
+    font-size: 31px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: white;
 }
 
 .absolute {
-  position: absolute;
+    position: absolute;
 }
 
 .base-page {
-  padding-top: 150px;
-  color: white;
-  background-color: #ecedee;
-  min-height: 100vh;
-
-  .page-header {
-    .page-header-title {
-      font-weight: 700;
-      color: black;
-      display: inline-block;
-      margin-bottom: 20px;
+    padding-top: 150px;
+    color: white;
+    background-color: #ecedee;
+    min-height: 100vh;
+    .page-header {
+        .page-header-title {
+            font-weight: 700;
+            color: black;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
     }
-  }
 }
 
-.clickable{
-  cursor: pointer;
+.clickable {
+    cursor: pointer;
 }
 
-.btn{
-  border-radius: 50px;
+.btn {
+    border-radius: 50px;
 }
-  
+
 .cursor {
-  width: 20px;
-  height: 20px;
-  border: 1px solid white;
-  border-radius: 50%;
-  position: absolute;
-  transition-duration: 200ms;
-  transition-timing-function: ease-out;
-  animation: cursorAnim .5s infinite alternate;
-  pointer-events: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    animation: cursorAnim .5s infinite alternate;
+    pointer-events: none;
 }
 
 .cursor::after {
-  content: "";
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  border: 8px solid #dba919;
-  border-radius: 50%;
-  opacity: .5;
-  // top: -8px;
-  // left: -8px;
-  animation: cursorAnim2 .5s infinite alternate;
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border: 8px solid #dba919;
+    border-radius: 50%;
+    opacity: .5;
+    // top: -8px;
+    // left: -8px;
+    animation: cursorAnim2 .5s infinite alternate;
 }
 
 @keyframes cursorAnim {
-  from {
-      transform: scale(1);
-  }
-  to {
-      transform: scale(.7);
-  }
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(.7);
+    }
 }
 
 @keyframes cursorAnim2 {
-  from {
-      transform: scale(1);
-  }
-  to {
-      transform: scale(.4);
-  }
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(.4);
+    }
 }
 
 @keyframes cursorAnim3 {
-  0% {
-      transform: scale(1);
-  }
-  50% {
-      transform: scale(3);
-  }
-  100% {
-      transform: scale(1);
-      opacity: 0;
-  }
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(3);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
 }
 
 .expand {
-  animation: cursorAnim3 .5s forwards;
-  border: 1px solid red;
+    animation: cursorAnim3 .5s forwards;
+    border: 1px solid red;
 }
