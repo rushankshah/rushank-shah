@@ -18,6 +18,25 @@ const blogs = () => {
                         <Slide direction='left'>
                             <Card className='intro custom-card'>
                                 <CardBody>
+                                    <CardImg top src="/static/images/obstacle.png" alt="Card image cap"></CardImg>
+                                    <CardTitle tag='h3'>
+                                        How to make an obstacle avoiding Robot using an Ultrasonic sensor?
+                                    </CardTitle>
+                                    <CardSubtitle tag="h6" className="mb-2 text-muted">18 May, 2021</CardSubtitle>
+                                    <CardText>
+                                        Making an obstacle avoiding robot using Ultrasonic Sensor
+                                    </CardText>
+                                    <a className='btn btn-outline-info' target='_blank' href='https://rushankshah65.medium.com/how-to-make-an-obstacle-avoiding-robot-using-an-ultrasonic-sensor-9fa67b613002'>Read</a>
+                                </CardBody>
+                            </Card>
+                        </Slide>
+                    </Col>
+                </Row>
+                <Row className='mt-5'>
+                    <Col md='12'>
+                        <Slide direction='right'>
+                            <Card className='intro custom-card'>
+                                <CardBody>
                                     <CardImg top src="/static/images/Custom-Cursor.png" alt="Card image cap"></CardImg>
                                     <CardTitle tag='h3'>
                                         How to add a Custom cursor to NextJS application?
@@ -34,7 +53,7 @@ const blogs = () => {
                 </Row>
                 <Row className='mt-5'>
                     <Col md='12'>
-                        <Slide direction='right'>
+                        <Slide direction='left'>
                             <Card className='intro custom-card'>
                                 <CardBody>
                                     <CardImg top src="/static/images/sys.png" alt="Card image cap"></CardImg>
@@ -53,7 +72,7 @@ const blogs = () => {
                 </Row>
                 <Row className='mt-5'>
                     <Col md='12'>
-                        <Slide direction='left'>
+                        <Slide direction='right'>
                             <Card className='intro custom-card'>
                                 <CardBody>
                                     <CardImg top src="/static/images/flutter.png" alt="Card image cap"></CardImg>
