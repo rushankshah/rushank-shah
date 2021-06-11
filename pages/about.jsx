@@ -373,6 +373,11 @@ const about = () => {
                             <div className='intro'>
                                 <ul>
                                     <li>
+                                        Selected as a MITACS Globalink Intern 2021 for a 4-month Research internship focusing on Optimizing
+                                        Worlds-In-Miniature for Mixed Reality Applications at the University of Calgary at Alberta but couldn’t
+                                        attend it due to COVID-19 pandemic. <a href="https://tinyurl.com/7uan4vaj" target="_blank">[LOR]</a>
+                                    </li>
+                                    <li>
                                         Secured 4th place in Scholastic robotics Competition organised by IIT Bombay (National level).
                                     </li>
                                     <li>
